@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8BB8C74B2B3AAFC30070D406 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB8C74A2B3AAFC30070D406 /* ListViewModel.swift */; };
+		8BB8C74D2B3B8A300070D406 /* NoItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB8C74C2B3B8A300070D406 /* NoItemsView.swift */; };
 		8BC64AB72B3AA0F8008F9159 /* TodoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC64AB62B3AA0F8008F9159 /* TodoListApp.swift */; };
 		8BC64AB92B3AA0F8008F9159 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC64AB82B3AA0F8008F9159 /* ListView.swift */; };
 		8BC64ABB2B3AA0FA008F9159 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BC64ABA2B3AA0FA008F9159 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		8BB8C74A2B3AAFC30070D406 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		8BB8C74C2B3B8A300070D406 /* NoItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoItemsView.swift; sourceTree = "<group>"; };
 		8BC64AB32B3AA0F8008F9159 /* TodoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BC64AB62B3AA0F8008F9159 /* TodoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListApp.swift; sourceTree = "<group>"; };
 		8BC64AB82B3AA0F8008F9159 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				8BC64AB82B3AA0F8008F9159 /* ListView.swift */,
+				8BB8C74C2B3B8A300070D406 /* NoItemsView.swift */,
 				8BC64AC72B3AA53D008F9159 /* AddView.swift */,
 				8BC64AC42B3AA3D2008F9159 /* ListRowView.swift */,
 			);
@@ -178,6 +181,7 @@
 				8BB8C74B2B3AAFC30070D406 /* ListViewModel.swift in Sources */,
 				8BC64AB92B3AA0F8008F9159 /* ListView.swift in Sources */,
 				8BC64AB72B3AA0F8008F9159 /* TodoListApp.swift in Sources */,
+				8BB8C74D2B3B8A300070D406 /* NoItemsView.swift in Sources */,
 				8BC64AC52B3AA3D2008F9159 /* ListRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
